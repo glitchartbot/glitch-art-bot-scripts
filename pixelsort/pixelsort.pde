@@ -20,10 +20,7 @@
 
 int mode = 1;
 
-// Image path is relative to sketch directory
 PImage img;
-String[] lines;
-String[] args;
 String imgFileName;
 String fileFormat;
 
@@ -40,11 +37,10 @@ int column = 0;
 boolean saved = false;
 
 void setup() {
-  lines = loadStrings("data/setup.txt");
-  args = lines[0].split(",");
-  imgFileName = args[0];
-  fileFormat = args[1];
-  img = loadImage(imgFileName + fileFormat);
+  makeMap(args);
+  imgFileName = arguments.get("filename");
+  fileFormat = arguments.get("format");
+  img = loadImage("./assets/" + imgFileName + fileFormat);
   
   // Use only numbers (not variables) for the size() command, Processing 3
   size(1, 1);
@@ -80,15 +76,10 @@ void draw() {
   image(img, 0, 0, width, height);
   
   if(!saved && frameCount >= loops) {
-    // Save img
-    img.save(imgFileName + "_" + mode + fileFormat);
+    img.save("output/" + imgFileName + "_" + mode + fileFormat);
   
     saved = true;
     println("Saved " + frameCount + " Frame(s)");
-    
-    // Exiting here can interrupt file save, wait for user to trigger exit
-    // println("Click or press any key to exit...");
-    // lol
     exit();
   }
 }
