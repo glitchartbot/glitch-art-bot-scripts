@@ -76,7 +76,7 @@ void draw() {
   image(img, 0, 0, width, height);
   
   if(!saved && frameCount >= loops) {
-    img.save("output/" + imgFileName + "_" + mode + fileFormat);
+    img.save("output/" + imgFileName + fileFormat);
   
     saved = true;
     println("Saved " + frameCount + " Frame(s)");
