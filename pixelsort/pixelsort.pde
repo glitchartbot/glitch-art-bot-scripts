@@ -40,6 +40,7 @@ void setup() {
   makeMap(args);
   imgFileName = arguments.get("filename");
   fileFormat = arguments.get("format");
+  mode = Integer.parseInt(arguments.get("mode"));
   img = loadImage("./assets/" + imgFileName + fileFormat);
   
   // Use only numbers (not variables) for the size() command, Processing 3
