@@ -6,6 +6,8 @@ Here you'll find the scripts (or sketches, if you prefer) used by [Glitch Art Bo
 
 Each script has its own folder and in each folder, its customization options.
 
+*PS.: The user that mentions the bot aswell as the user that posted the tweet with the image **CAN'T** have its tweets "protected", for the bot won't the able to see the tweets.*
+
 ## Basic usage
 
 Reply to a tweet mentioning the bot (@GlitchArtBot) with the desired script, for example `@GlitchArtBot script-name`.

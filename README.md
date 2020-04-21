@@ -6,6 +6,8 @@ Aqui você vai encontrar os scripts (ou sketches, se preferir) usados pelo [Glit
 
 Cada script tem sua própria pasta e em cada pasta, suas opções de personalização.
 
+*Obs.: Tanto o usuário que menciona o bot quanto o usuário que postou o tweet que tem a imagem **NÃO** podem ter os tweets "protegidos", senão o bot não consegue enxergar os tweets.*
+
 ## Uso básico
 
 Responda um tweet mencionando o bot (@GlitchArtBot) com o script desejado, por exemplo `@GlitchArtBot nome-do-script`.
