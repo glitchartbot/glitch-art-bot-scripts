@@ -14,4 +14,4 @@
 
 
 ---
-*Original script by Kim Asendorf.*
+*Original script by Kim Asendorf.<sup>[[1]](https://github.com/kimasendorf/ASDFPixelSort)<sup>*
