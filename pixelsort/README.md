@@ -1,7 +1,5 @@
 ***To read this documentation in english, [click here](./README-en-us.md).***
 
-# Pixel Sort
-
 ## Nome do script
 
 `pixelsort`
