@@ -1,4 +1,4 @@
-**_Para ler essa documentação em portugês, [clique aqui](./README.md)._**
+**_Para ler essa documentação em português, [clique aqui](./README.md)._**
 
 ## Script name
 
