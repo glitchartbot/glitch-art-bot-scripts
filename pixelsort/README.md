@@ -1,4 +1,4 @@
-***To read this documentation in english, [click here](./README-en-us.md).***
+**_To read this documentation in english, [click here](./README-en-us.md)._**
 
 ## Nome do script
 
@@ -6,12 +6,10 @@
 
 ## Opções
 
-| Opção | Valores permitidos | Padrão | Descrição |
-|--------|---------|-------------|----------------|
-| `mode` |  `0`: Preto<br>`1`: Brilho<br>`2`: Branco | `1` | O modo que o script vai usar para fazer a ordenação
- 
-
-
+| Opção  | Valores permitidos                       | Padrão | Descrição                                           |
+| ------ | ---------------------------------------- | ------ | --------------------------------------------------- |
+| `mode` | `1`: Preto<br>`2`: Brilho<br>`3`: Branco | `2`    | O modo que o script vai usar para fazer a ordenação |
 
 ---
-*Script original por Kim Asendorf.<sup>[[1]](https://github.com/kimasendorf/ASDFPixelSort)<sup>*
+
+_Script original por Kim Asendorf.<sup>[[1]](https://github.com/kimasendorf/ASDFPixelSort)<sup>_
