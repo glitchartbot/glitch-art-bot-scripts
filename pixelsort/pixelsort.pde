@@ -18,7 +18,7 @@
 
 */
 
-int mode = 1;
+int mode = 2;
 
 PImage img;
 String imgFileName;
@@ -111,15 +111,15 @@ void sortRow() {
   
   while(xend < img.width-1) {
     switch(mode) {
-      case 0:
+      case 1:
         x = getFirstNotBlackX(x, y);
         xend = getNextBlackX(x, y);
         break;
-      case 1:
+      case 2:
         x = getFirstBrightX(x, y);
         xend = getNextDarkX(x, y);
         break;
-      case 2:
+      case 3:
         x = getFirstNotWhiteX(x, y);
         xend = getNextWhiteX(x, y);
         break;
@@ -161,15 +161,15 @@ void sortColumn() {
   
   while(yend < img.height-1) {
     switch(mode) {
-      case 0:
+      case 1:
         y = getFirstNotBlackY(x, y);
         yend = getNextBlackY(x, y);
         break;
-      case 1:
+      case 2:
         y = getFirstBrightY(x, y);
         yend = getNextDarkY(x, y);
         break;
-      case 2:
+      case 3:
         y = getFirstNotWhiteY(x, y);
         yend = getNextWhiteY(x, y);
         break;
