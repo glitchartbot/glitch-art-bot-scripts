@@ -2,7 +2,7 @@
 
 # glitch-art-bot-scripts
 
-Aqui você vai encontrar os scripts (ou sketches, se preferir) usados pelo [Glitch Art Bot](https://github.com/friaca/glitch-art-bot-ts).
+Aqui você vai encontrar os scripts (ou sketches, se preferir) usados pelo [Glitch Art Bot](https://github.com/glitchartbot/glitch-art-bot-ts).
 
 Cada script tem sua própria pasta e em cada pasta, suas opções de personalização.
 
@@ -32,6 +32,7 @@ Essas opções são compatíveis com todos os scripts.
 
 ## <a name="scripts-disponiveis"></a> Scripts disponíveis
 
-| Algoritmo                                                                                      | Nome do script |
-| ---------------------------------------------------------------------------------------------- | -------------- |
-| [Pixel Sort](https://github.com/friaca/glitch-art-bot-scripts/tree/master/pixelsort/README.md) | `pixelsort`    |
+| Algoritmo                                                                                              | Nome do script |
+| ------------------------------------------------------------------------------------------------------ | -------------- |
+| [Pixel Sort](https://github.com/glitchartbot/glitch-art-bot-scripts/tree/master/pixelsort/README.md)   | `pixelsort`    |
+| [Pixel Drift](https://github.com/glitchartbot/glitch-art-bot-scripts/tree/master/pixeldrift/README.md) | `pixeldrift`   |
