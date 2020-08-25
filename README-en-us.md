@@ -32,6 +32,7 @@ These options are compatible with all scripts.
 
 ## <a name="availabe-scripts"></a> Available scripts
 
-| Algorithm                                                                                      | Script's name |
-| ---------------------------------------------------------------------------------------------- | ------------- |
-| [Pixel Sort](https://github.com/friaca/glitch-art-bot-scripts/tree/master/pixelsort/README.md) | `pixelsort`   |
+| Algorithm                                                                                              | Script's name |
+| ------------------------------------------------------------------------------------------------------ | ------------- |
+| [Pixel Sort](https://github.com/friaca/glitch-art-bot-scripts/tree/master/pixelsort/README.md)         | `pixelsort`   |
+| [Pixel Drift](https://github.com/glitchartbot/glitch-art-bot-scripts/tree/master/pixeldrift/README.md) | `pixeldrift`  |
